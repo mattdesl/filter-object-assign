@@ -1,0 +1,46 @@
+{
+  "name": "filter-object-assign",
+  "version": "1.0.0",
+  "description": "extends the specified keys into the given object",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "own-enumerable-keys": "^1.0.0"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.0.1"
+  },
+  "scripts": {
+    "test": "node test.js | faucet"
+  },
+  "keywords": [
+    "object",
+    "assign",
+    "assigns",
+    "merge",
+    "clone",
+    "xtend",
+    "extend",
+    "key",
+    "filter",
+    "function",
+    "keys",
+    "filtering",
+    "with",
+    "only"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/filter-object-assign.git"
+  },
+  "homepage": "https://github.com/mattdesl/filter-object-assign",
+  "bugs": {
+    "url": "https://github.com/mattdesl/filter-object-assign/issues"
+  }
+}
