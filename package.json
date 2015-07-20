@@ -1,6 +1,6 @@
 {
   "name": "filter-object-assign",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "extends the specified keys into the given object",
   "main": "index.js",
   "license": "MIT",
