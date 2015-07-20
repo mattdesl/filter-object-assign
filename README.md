@@ -47,15 +47,15 @@ console.log(stats)
 
 #### `target = filterAssign(target, sources, ..., filterFunction)`
 
-Behaves like [Object.assign()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) in that it merges the variable-length `sources` arguments into the `target` object (from left to right). 
+Behaves like [Object.assign()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) in that it merges the variable-length `sources` arguments into the `target` object (from left to right). The `target` object, which must not be null/undefined, is returned.
 
-However, this expects a `filterFunction` passed as the last argument. This function takes the following parameters:
+A `filterFunction` must be passed as the last argument. This function takes the following parameters:
 
 - *value* the value of the property about to be merged
 - *key* the property name string about to be merged
 - *object* the (source) object being enumerated and merged
 
-The `target` object, which must not be null/undefined, is returned.
+If the function returns `true`, that property will be merged in. Otherwise, it will be skipped.
 
 ## See Also
 
